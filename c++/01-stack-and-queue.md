@@ -41,7 +41,6 @@ Ngược lại với Stack, thì tưởng tượng queue như đúng cái tên c
 
 ## Pointer in Queue
 
-
 # References
 - https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
 - https://www.programiz.com/dsa/stack

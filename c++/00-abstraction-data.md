@@ -17,25 +17,33 @@ Là các kiểu dữ liệu do chúng ta, mỗi người tự định nghĩa th�
 Được khai báo qua các keywords: *struct*, *union*, *enumeration*
 
 vd1: định nghĩa kiểu dữ liệu point
+<pre><code>
 struct point {
     int x;
     int y;
 };
-Sử dụng:
+</code></pre>
 
+Sử dụng:
+<pre><code>
 point pt;
 pt.x = 1;
 pt.y = 2;
+</code></pre>
 
-vd2: định nghĩa kiểu dữ liệu mới tên "students"
+vd2: định nghĩa kiểu dữ liệu mới tên "students":
+<pre><code>
 struct {
     string name;
     flost gpa;
 }
+
 sử dụng:
+<pre><code>
 students s1;
 s1.name = "Tom";
 s1.gpa = 3.9;
+</code></pre>
 
 students schoolYear2003[100];
 schoolYear2003[0].name = "Anne";
@@ -59,9 +67,11 @@ Xem thêm "Intro to CLASSES" của LinkedIn Learning: https://www.youtube.com/wa
 
 
 vd: kiểu stack
+<pre><code>
 stack myStack;
 myStack.push("Apple");
 myStack.push("Banana");
 myStack.pop();
+</code></pre>
 
 ADT như 1 blackbox, nó giấu hết bên dưới được implement thế nào, dùng cấu trúc gì, details các functions (push, pop trong stack) nó ra sao.
